@@ -2,7 +2,7 @@
 ### quick start
 Next, enter the following command:
 ```sh
-wget -qO /home/autostaking.sh https://raw.githubusercontent.com/toxi42/Cosmos-scripts/main/autostaking.sh
+wget -qO /home/autostaking.sh https://raw.githubusercontent.com/toxi42/Cosmos-scripts/main/autostaking_stratos.sh
 chmod +x /home/autostaking.sh
 Change values:
 mcedit /home/autostaking.sh
