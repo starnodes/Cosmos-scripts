@@ -2,10 +2,10 @@
 GREEN_COLOR='\033[0;32m'
 RED_COLOR='\033[0;31m'
 WITHOU_COLOR='\033[0m'
-DELEGATOR_ADDRESS='st1thzvljcqwy78r6rlfrqc245xdkzs50hus62zsn'
-VALIDATOR_ADDRESS='stvaloper1thzvljcqwy78r6rlfrqc245xdkzs50hu8krzvc'
+DELEGATOR_ADDRESS='st1thzvl...'
+VALIDATOR_ADDRESS='stvaloper1...'
 DELAY=3600/4 #in secs - how often restart the script
-ACC_NAME=fiks_wallet
+ACC_NAME=name_wallet
 NODE="tcp://localhost:26657" #change it only if you use another rpc port of your node
 CHAIN_NAME=tropos-1
 project=stchaincli
