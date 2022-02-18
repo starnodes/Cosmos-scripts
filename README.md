@@ -1,11 +1,13 @@
 # Cosmos-scripts
+### quick start
 Next, enter the following command:
-chmod u+x autostake.sh
+```sh
+wget -qO /home/autostaking.sh https://raw.githubusercontent.com/toxi42/Cosmos-scripts/main/autostaking.sh
+chmod +x /home/autostaking.sh
+Change values:
+mcedit /home/autostaking.sh
 Finally we open a new screen:
-screen -S autostake
-And run the script:
-./autostake.sh
+screen -d -m -S autostake /home/autostaking.sh
+screen -S autostake -X quit #if you need stop
 After that, autostaking works!
-To exit the screen, press Ctrl + A + D
-If you need to turn off autostaking later, just enter:
-pkill screen
+```
